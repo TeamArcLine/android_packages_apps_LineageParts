@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2023 The LineageOS Project
+     SPDX-FileCopyrightText: 2017-2023 The ArcLine Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">LineageOS の設定</string>
+    <string name="lineageparts_title">ArcLine の設定</string>
     <string name="loading">読み込み中\u2026</string>
     <string name="dlg_ok">OK</string>
     <string name="cancel">キャンセル</string>
@@ -421,7 +421,7 @@
     <string name="contributions_info_msg"><![CDATA[<b>協力者の合計:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>コミットの合計:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>最終更新:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_statistics_title">LineageOS の統計</string>
+    <string name="anonymous_statistics_title">ArcLine の統計</string>
     <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してLineageOSの改善に協力する</string>
     <string name="anonymous_statistics_warning_title">情報</string>
     <string name="anonymous_statistics_warning">LineageOSの統計に同意すると、端末間のユニークインストール回数を調べるためにLineageOSの開発者への非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データはブート時に送信されます。\n\n送信されるデータの見本は[データをプレビュー]をタップして確認することができます。</string>

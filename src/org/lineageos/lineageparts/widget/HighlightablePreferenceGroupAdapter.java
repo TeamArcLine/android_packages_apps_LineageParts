@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2018 The Android Open Source Project
- * SPDX-FileCopyrightText: 2020-2023 The LineageOS Project
+ * SPDX-FileCopyrightText: 2020-2023 The ArcLine Project
  * SPDX-License-Identifier: Apache-2.0
  */
 

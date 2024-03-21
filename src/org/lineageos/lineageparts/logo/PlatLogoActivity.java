@@ -1,6 +1,6 @@
 /*
  * SPDX-FileCopyrightText: 2010 The Android Open Source Project
- * SPDX-FileCopyrightText: 2017-2023 The LineageOS Project
+ * SPDX-FileCopyrightText: 2017-2023 The ArcLine Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
@@ -51,12 +51,12 @@ public class PlatLogoActivity extends Activity {
         private int mDarkest;
         private float mOffset;
 
-        // LineageOS logo drawable
+        // ArcLine logo drawable
         private final Drawable mLogo;
 
         public PBackground(Context context) {
             randomizePalette();
-            // LineageOS logo
+            // ArcLine logo
             mLogo = context.getResources().getDrawable(R.drawable.logo_lineage, context.getTheme());
             mLogo.setColorFilter(new ColorMatrixColorFilter(WHITE)); // apply color filter
             mLogo.setBounds(0, 0, 360, 180); // Aspect ratio 2:1
@@ -188,7 +188,7 @@ public class PlatLogoActivity extends Activity {
             }
             canvas.restore();
 
-            // Draw LineageOS Logo drawable
+            // Draw ArcLine Logo drawable
             canvas.save();
             {
                 canvas.translate((-360 / 2f) * mRadius / BASE_SCALE,
